@@ -1,0 +1,14 @@
+{
+    "name": "babel",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "babel 0001-cli-hello-world/src -d 0001-cli-hello-world/lib"
+    },
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/cli": "^7.7.7",
+        "@babel/core": "^7.7.7",
+        "@babel/preset-env": "^7.7.7"
+    }
+}
